@@ -15,9 +15,11 @@
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "styleguide:deploy": "storybook-to-ghpages --existing-output-dir=styleguide"
   },
   "devDependencies": {
+    "@storybook/storybook-deployer": "^2.3.0",
     "@types/jest": "^22.2.0",
     "@types/node": "^9.4.7",
     "@types/react": "^16.0.40",
