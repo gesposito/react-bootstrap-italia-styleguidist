@@ -3,21 +3,31 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "bootstrap-italia": "https://github.com/italia/bootstrap-italia",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts-ts": "2.14.0"
+    "react-scripts-ts": "2.14.0",
+    "reactstrap": "^4.8.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
     "@types/node": "^9.4.7",
     "@types/react": "^16.0.40",
     "@types/react-dom": "^16.0.4",
-    "typescript": "^2.7.2"
+    "@types/reactstrap": "^5.0.20",
+    "babel-polyfill": "^6.26.0",
+    "react-docgen-typescript": "^1.2.6",
+    "react-styleguidist": "^6.5.0",
+    "typelevel-ts": "^0.2.3",
+    "typescript": "^2.7.2",
+    "webpack": "3.8.1"
   }
 }
