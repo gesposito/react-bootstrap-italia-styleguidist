@@ -20,6 +20,10 @@ module.exports = {
     path.join(
       __dirname,
       "node_modules/bootstrap-italia/dist/css/bootstrap-italia.css"
+    ),
+    path.join(
+      __dirname,
+      "node_modules/bootstrap-italia/dist/css/italia-icon-font.css"
     )
   ]
 };

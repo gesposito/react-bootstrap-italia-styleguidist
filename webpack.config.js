@@ -11,6 +11,14 @@ module.exports = {
         exclude: /node_modules/,
         loaders: ['ts-loader'],
       },
+      {
+        test: /.(woff|woff2|eot|ttf|otf)$/,
+        loaders: ['file-loader'],
+      },
+      {
+        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/, /\.svg$/],
+        loaders: ['url-loader'],
+      },
     ],
   },
   resolve: {
