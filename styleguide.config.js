@@ -15,6 +15,10 @@ module.exports = {
     "babel-polyfill",
     path.join(
       __dirname,
+      "src/assets/css/docs.min.css"
+    ),
+    path.join(
+      __dirname,
       "node_modules/bootstrap-italia/dist/css/bootstrap-italia.css"
     )
   ]
