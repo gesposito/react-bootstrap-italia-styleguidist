@@ -134,7 +134,7 @@ const { NavbarBrand, Form, Input, Button, InputGroup, InputGroupAddon } = requir
     >
         <Form inline className="my-2 my-lg-0">
             <InputGroup>
-                <InputGroupAddon InputGroupAddon addonType="prepend">
+                <InputGroupAddon addonType="prepend">
                     @
                 </InputGroupAddon>
                 <Input type="text" placeholder="Username" />
