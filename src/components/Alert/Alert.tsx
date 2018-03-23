@@ -3,9 +3,9 @@ import { ObjectOmit } from "typelevel-ts";
 
 import { Alert as Component, AlertProps } from "reactstrap";
 
-class Alert extends React.Component<
-  ObjectOmit<AlertProps, keyof React.HTMLAttributes<HTMLElement>>
-> {
+type Props = ObjectOmit<AlertProps, keyof React.HTMLAttributes<HTMLElement>>;
+
+class Alert extends React.Component<Props> {
   render() {
     return <Component {...this.props} />;
   }
