@@ -15,7 +15,7 @@ Wrap a series of buttons with `.btn` in `.btn-group`. Add on optional JavaScript
 Combine sets of button groups into button toolbars for more complex components. Use utility classes as needed to space out groups, buttons, and more.
 
 ```js
-const { ButtonToolbar }  = require("reactstrap");
+const { ButtonToolbar } = require("reactstrap");
 <ButtonToolbar>
     <ButtonGroup className="mr-1">
         <Button>1</Button>

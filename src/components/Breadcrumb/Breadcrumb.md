@@ -3,7 +3,7 @@
 I separatori vengono aggiunti automaticamente in CSS tramite [`::before`](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) e [`content`](https://developer.mozilla.org/en-US/docs/Web/CSS/content).
 
 ```js
-const { BreadcrumbItem }  = require("reactstrap");
+const { BreadcrumbItem } = require("reactstrap");
 <div>
     <Breadcrumb>
         <BreadcrumbItem active>Home</BreadcrumbItem>

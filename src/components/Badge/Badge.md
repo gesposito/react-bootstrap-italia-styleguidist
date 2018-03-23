@@ -28,7 +28,7 @@ La grandezza di ogni badge si adatta come dimensione a quella del font (misurato
 I badge possono essere utilizzati come parte di link o pulsanti per fornire un contatore.
 
 ```js
-const { Button }  = require("reactstrap");
+const { Button } = require("reactstrap");
 
 <Button color="primary">
     Notifiche <Badge color="secondary">4</Badge>
