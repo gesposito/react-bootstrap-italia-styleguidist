@@ -69,7 +69,7 @@ Aggiungere la classe `.active` agli elementi del dropdown che si vogliono mostra
 ```js
 const { DropdownToggle, DropdownMenu, DropdownItem } = require("reactstrap");
 <div style={{ paddingBottom: 150 }}>
-  <Dropdown isOpen>
+  <Dropdown isOpen toggle={() => {}}>
     <DropdownToggle caret>Dropdown</DropdownToggle>
     <DropdownMenu>
       <DropdownItem>Azione 1</DropdownItem>
@@ -87,7 +87,7 @@ Aggiungere la classe `.disabled` agli elementi del dropdown che si vogliono most
 ```js
 const { DropdownToggle, DropdownMenu, DropdownItem } = require("reactstrap");
 <div style={{ paddingBottom: 150 }}>
-  <Dropdown isOpen>
+  <Dropdown isOpen toggle={() => {}}>
     <DropdownToggle caret>Dropdown</DropdownToggle>
     <DropdownMenu>
       <DropdownItem>Azione 1</DropdownItem>
