@@ -53,9 +53,6 @@ const DropdownFullSizingExample = require('./DropdownFullSizing.example').defaul
 Aggiungendo semplicemente la class `.dropup` all'elemento contenitore, la _dropdown_ si aprirà verso l'alto. Allo stesso modo, utilizzando invece le classi `.dropright` e `.dropleft`, il menù a tendina si aprirà rispettivamente a destra e sinistra.
 
 - TBD
-<!-- 
-const DropdownDirectionsExample = require('./DropdownDirections.example').default;<DropdownDirectionsExample /> 
--->
 
 ### Allineamento orizzontale
 
